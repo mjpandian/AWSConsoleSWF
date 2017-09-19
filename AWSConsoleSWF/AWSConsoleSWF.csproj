@@ -54,8 +54,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActivityRegistration.cs" />
+    <Compile Include="Deciders.cs" />
+    <Compile Include="DomainRegistration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RunWorkflow.cs" />
+    <Compile Include="Workers.cs" />
+    <Compile Include="WorkflowRegistration.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
